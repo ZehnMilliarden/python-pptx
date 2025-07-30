@@ -1,0 +1,18 @@
+{
+    "python.languageServer": "None",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.extraPaths": [
+        "./src",
+    ],
+    "python.analysis.extraPaths": [
+        "./src",
+    ],
+    "python.jediEnable": false,
+    "python.envFile": "${workspaceRoot}/.vscode/.env",
+    "python.analysis.completeFunctionParens": true,
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceRoot}/.vscode/${env:PYTHONPATH}"
+    }
+}
